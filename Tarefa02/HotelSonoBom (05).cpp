@@ -10,13 +10,13 @@ main()
 	float Frigobar, Bar, ValorConta, Desconto, Garcom, ValorDiaria, ValorQuarto, TaxaHospe, ValorMassa, ValorFrig, ValorBar, ToltServ, Taxa;
 	string Nome, Sobrenome, QuartoI, HospedeQ;
 	
-	cout << "Informe o número da reserva: ";
+	cout << "Informe o nÃºmero da reserva: ";
 	cin >> Reserva;
 	
-	cout << "Informe o seu primeiro nome do responsável: ";
+	cout << "Informe o primeiro nome do responsÃ¡vel: ";
 	cin >> Nome;
 		
-	cout << "Informe o seu sobrenome do responsável: ";
+	cout << "Informe o sobrenome do responsÃ¡vel: ";
     cin >> Sobrenome;
     
     cout << "Informe a quantidade de diarias que ira realizar: ";
@@ -25,16 +25,16 @@ main()
     cout << "Informe o valor consumido do Frigobar: ";
     cin >> Frigobar;
     
-    cout << "Informe a quantidade de serviços de massagem utilizados: ";
+    cout << "Informe a quantidade de serviÃ§os de massagem utilizados: ";
     cin >> Massagem;
     
     cout << "Informe o valor de consumo do bar: ";
     cin >> Bar;
     
-    cout << "\nMARQUE APENAS O NÚMERO NAS PROXIMAS DUAS QUESTÕES" << endl;
+    cout << "\nMARQUE APENAS O NÃšMERO NAS PROXIMAS DUAS QUESTÃ•ES" << endl;
     system("pause");
     
-    cout << "\nInforme a quantidade de hóspedes: \n1-Casal (até duas pessoas) \n2-Família Pequena (3 ou 4 pessoas) \n3-Família Grande (acima de 5 pessoas)" << endl;
+    cout << "\nInforme a quantidade de hÃ³spedes: \n1-Casal (atÃ© duas pessoas) \n2-FamÃ­lia Pequena (3 ou 4 pessoas) \n3-FamÃ­lia Grande (acima de 5 pessoas)" << endl;
     cin >> Hospede;
     
     cout << "\nInforme tipo de quarto escolhido: \n1-Standard \n2-Luxo \n3-V.I.P"  << endl;
@@ -61,16 +61,16 @@ main()
 	if (Hospede == 1)
 	{
 		TaxaHospe = 0;	
-		HospedeQ = "Casal (até duas pessoas)";
+		HospedeQ = "Casal (atÃ© duas pessoas)";
 	}
 	else if (Hospede == 2)
 	{
 		TaxaHospe = 20.00;
-		HospedeQ = "Família Pequena (3 ou 4 pessoas)";
+		HospedeQ = "FamÃ­lia Pequena (3 ou 4 pessoas)";
 	}
 	else if (Hospede == 3){
 		TaxaHospe = 40.00;
-		HospedeQ = "Família Grande (acima de 5 pessoas)";
+		HospedeQ = "FamÃ­lia Grande (acima de 5 pessoas)";
 	}
 	
 	//Massagem
@@ -122,18 +122,18 @@ main()
 	
 	//Saida
 	cout << "\n==================================================================\n";
-    cout << "Número da reserva: " << Reserva << endl;
-    cout << "Responsável pela reserva: " << Nome << " " << Sobrenome << endl;
-    cout << "Número de diárias: " << Diarias << endl;
+    cout << "NÃºmero da reserva: " << Reserva << endl;
+    cout << "ResponsÃ¡vel pela reserva: " << Nome << " " << Sobrenome << endl;
+    cout << "NÃºmero de diÃ¡rias: " << Diarias << endl;
     cout << "Tipo de quarto: " << QuartoI << endl;
     cout << "Quantidade de hospedes: " << HospedeQ << endl;
     cout << "\n-------------------------------------\n";
-    cout << "Valor das diárias: R$" << ValorDiaria << endl;
-    cout << "Valor total do serviço de massagem: R$" << ValorMassa << endl;
+    cout << "Valor das diÃ¡rias: R$" << ValorDiaria << endl;
+    cout << "Valor total do serviÃ§o de massagem: R$" << ValorMassa << endl;
     cout << "Valor total do frigobar: R$" << ValorFrig << endl;
     cout << "Valor total do bar: R$" << ValorBar << endl;
-    cout << "Taxa de comissão ao garçom (10%): R$" << Garcom << endl;
-    cout << "Total em serviços do Hotel Bom Sono: R$" << ToltServ << endl;
+    cout << "Taxa de comissÃ£o ao garÃ§om (10%): R$" << Garcom << endl;
+    cout << "Total em serviÃ§os do Hotel Bom Sono: R$" << ToltServ << endl;
     cout << "ISS: R$" << Taxa << endl;
     cout << "Conta final: R$" << ValorConta << endl;
     cout << "\n==================================================================";
