@@ -27,7 +27,7 @@ main() {
     }
 	
     cout << "\n===== RESULTADO FINAL =====\n";
-    cout << "\nA idade do aluno mais velho �: " << idadeMaisVelha << "\n";
+    cout << "\nA idade do aluno mais velho é: " << idadeMaisVelha << "\n";
     
 }
 
