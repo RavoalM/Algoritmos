@@ -56,6 +56,5 @@ int main() {
         cout << "Empate entre candidatos.\n";
     }
 
-    return 0;
 }
 
