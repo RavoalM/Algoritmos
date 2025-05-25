@@ -41,6 +41,5 @@ int main() {
     cout << "Total de homens: " << contHomens << endl;
     cout << "Total de mulheres: " << contMulheres << endl;
 
-    return 0;
 }
 
