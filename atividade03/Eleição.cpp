@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+main() {
     setlocale(LC_ALL, "Portuguese");
 
     int voto;
@@ -56,6 +56,5 @@ int main() {
         cout << "Empate entre candidatos.\n";
     }
 
-    return 0;
 }
 

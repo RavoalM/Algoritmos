@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+main() {
     setlocale(LC_ALL, "Portuguese");
 
     string nome;
@@ -41,6 +41,5 @@ int main() {
     cout << "Total de homens: " << contHomens << endl;
     cout << "Total de mulheres: " << contMulheres << endl;
 
-    return 0;
 }
 

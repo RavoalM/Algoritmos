@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+main() {
     setlocale(LC_ALL, "Portuguese");
 
     float nota = 0, totalNotas = 0, media = 0;
