@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+main() {
     setlocale(LC_ALL, "Portuguese");
 
     string nome, nomeMaisAlto, nomeMaisNovo;
